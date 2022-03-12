@@ -1,0 +1,2 @@
+hSpeed = -hSpeed
+updateHSpeed()
