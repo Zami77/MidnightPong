@@ -2,9 +2,12 @@
   "resources": [
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},"order":1,},
     {"id":{"name":"sNightPong_BG","path":"sprites/sNightPong_BG/sNightPong_BG.yy",},"order":2,},
+    {"id":{"name":"sLighting","path":"sprites/sLighting/sLighting.yy",},"order":3,},
     {"id":{"name":"sPaddle","path":"sprites/sPaddle/sPaddle.yy",},"order":0,},
     {"id":{"name":"oBall","path":"objects/oBall/oBall.yy",},"order":1,},
+    {"id":{"name":"oLighting","path":"objects/oLighting/oLighting.yy",},"order":2,},
     {"id":{"name":"oPaddle","path":"objects/oPaddle/oPaddle.yy",},"order":0,},
+    {"id":{"name":"oLightParent","path":"objects/oLightParent/oLightParent.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
