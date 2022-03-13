@@ -1,5 +1,5 @@
 if (other.canPushBall) {
-	hSpeed = -hSpeed
-	updateHSpeed()
-	other.alarm[0] = 30; // 1/4 a second
+	hSpeed = -hSpeed;
+	ballBounce();
+	other.alarm[0] = 30; // 1/2 a second
 }

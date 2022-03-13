@@ -2,6 +2,8 @@
   "resources": [
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},"order":1,},
     {"id":{"name":"sNightPong_BG","path":"sprites/sNightPong_BG/sNightPong_BG.yy",},"order":2,},
+    {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":4,},
+    {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
     {"id":{"name":"sLighting","path":"sprites/sLighting/sLighting.yy",},"order":3,},
     {"id":{"name":"sPaddle","path":"sprites/sPaddle/sPaddle.yy",},"order":0,},
     {"id":{"name":"oBall","path":"objects/oBall/oBall.yy",},"order":1,},
