@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,16 +25,16 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"da5fad8b-e26a-46be-ae6b-36f717323e2f","path":"sprites/sMenu/sMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da5fad8b-e26a-46be-ae6b-36f717323e2f","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"da5fad8b-e26a-46be-ae6b-36f717323e2f","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"e7060bf1-62df-46d3-9109-5a0d35f14a8a","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"da5fad8b-e26a-46be-ae6b-36f717323e2f","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"da5fad8b-e26a-46be-ae6b-36f717323e2f","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"69dfa158-8af0-43df-b61a-e1bf26798cbf","path":"sprites/sMenu/sMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"69dfa158-8af0-43df-b61a-e1bf26798cbf","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"69dfa158-8af0-43df-b61a-e1bf26798cbf","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"e7060bf1-62df-46d3-9109-5a0d35f14a8a","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"69dfa158-8af0-43df-b61a-e1bf26798cbf","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"69dfa158-8af0-43df-b61a-e1bf26798cbf","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"450c7fce-10f5-4134-9584-12a128620859","path":"sprites/sMenu/sMenu.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"450c7fce-10f5-4134-9584-12a128620859","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"450c7fce-10f5-4134-9584-12a128620859","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"e7060bf1-62df-46d3-9109-5a0d35f14a8a","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"450c7fce-10f5-4134-9584-12a128620859","path":"sprites/sMenu/sMenu.yy",},"LayerId":{"name":"6c764f04-9634-416d-9a5c-46bdc5d8b477","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"resourceVersion":"1.0","name":"450c7fce-10f5-4134-9584-12a128620859","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -65,8 +65,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
-    "yorigin": 0,
+    "xorigin": 100,
+    "yorigin": 100,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},
