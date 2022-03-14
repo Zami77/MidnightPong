@@ -26,18 +26,27 @@ function updateHSpeed() {
 	}
 }
 
+function updateVSpeed() {
+	vSpeed += irandom_range(-1, 1);
+}
+
 function ballBounceSound() {
 	bounceSounds = [sndBallHit_1, sndBallHit_2, sndBallHit_3];
 	curSound = irandom_range(0, array_length(bounceSounds) - 1);
 	audio_play_sound(bounceSounds[curSound], 1, false);
 }
 
-function ballBounce() {
-	updateHSpeed();
-	ballBounceSound();
+function ballBounceParticles() {
 	for(var i = 0; i < 30; i += 1) {
 		part_particles_create(global.partSystem, x, y, global.ptBasic, 1);
 	}
+}
+
+function ballBounce() {
+	updateHSpeed();
+	updateVSpeed();
+	ballBounceSound();
+	ballBounceParticles();
 }
 #endregion
 
