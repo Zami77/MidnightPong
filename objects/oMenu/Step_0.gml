@@ -1,9 +1,9 @@
 var arcadeOption = 0, twoPlayerOption = 1, exitOption = 2;
 
-if (global.control_up and image_index > 0) {
+if (global.control_menu_up and image_index > 0) {
 	image_index -= 1;
 }
-if (global.control_down and image_index < image_number - 1) {
+if (global.control_menu_down and image_index < image_number - 1) {
 	image_index += 1;
 }
 
