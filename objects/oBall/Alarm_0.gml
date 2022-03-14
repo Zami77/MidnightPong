@@ -4,6 +4,8 @@ if (global.isNight) {
 	hSpeed = 5;
 }
 else {
-	hSpeed = random_range(-10, 10);
+	hDir = sign(irandom_range(-1, 1))
+	hSpeed = random_range(5, 10) * hDir;
 }
-vSpeed = random_range(-10, 10);
+vDir = sign(irandom_range(-1, 1))
+vSpeed = random_range(3, 10) * vDir;
