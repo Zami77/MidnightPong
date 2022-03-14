@@ -24,10 +24,12 @@ function updateHSpeed() {
 	else {
 		hSpeed -= 1;
 	}
+	hSpeed = clamp(hSpeed, -maxHSpeed, maxHSpeed);
 }
 
 function updateVSpeed() {
-	vSpeed += irandom_range(-1, 1);
+	vSpeed += random_range(-2, 2);
+	vSpeed = clamp(vSpeed, -maxVSpeed, maxVSpeed);
 }
 
 function ballBounceSound() {
@@ -43,10 +45,15 @@ function ballBounceParticles() {
 }
 
 function ballBounce() {
+	if (!canBallBounce) {
+		return;
+	}
 	updateHSpeed();
 	updateVSpeed();
 	ballBounceSound();
 	ballBounceParticles();
+	canBallBounce = false;
+	alarm_set(1, 10);
 }
 #endregion
 
@@ -64,5 +71,10 @@ x += hSpeed;
 y += vSpeed;
 
 if (x < 0 || x > room_width) {
+	if (isMenuBall) {
+		hSpeed = -hSpeed;
+		ballBounce();
+		return;
+	}
 	resetBall()
 }
