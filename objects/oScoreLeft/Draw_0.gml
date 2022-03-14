@@ -3,6 +3,7 @@ draw_set_valign(fa_middle);
 
 draw_set_font(LargeFont);
 draw_set_color(c_white);
+
 if (global.isNight) {
 	draw_set_color(c_purple);
 }

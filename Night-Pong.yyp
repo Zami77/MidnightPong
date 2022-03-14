@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"oScoreRight","path":"objects/oScoreRight/oScoreRight.yy",},"order":6,},
     {"id":{"name":"sBall","path":"sprites/sBall/sBall.yy",},"order":1,},
+    {"id":{"name":"sMenu","path":"sprites/sMenu/sMenu.yy",},"order":4,},
     {"id":{"name":"sNightPong_BG","path":"sprites/sNightPong_BG/sNightPong_BG.yy",},"order":2,},
     {"id":{"name":"oGameController","path":"objects/oGameController/oGameController.yy",},"order":4,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
@@ -11,9 +12,11 @@
     {"id":{"name":"oBall","path":"objects/oBall/oBall.yy",},"order":1,},
     {"id":{"name":"oLighting","path":"objects/oLighting/oLighting.yy",},"order":2,},
     {"id":{"name":"oPaddle","path":"objects/oPaddle/oPaddle.yy",},"order":0,},
+    {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":1,},
     {"id":{"name":"LargeFont","path":"fonts/LargeFont/LargeFont.yy",},"order":0,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":7,},
     {"id":{"name":"oLightParent","path":"objects/oLightParent/oLightParent.yy",},"order":3,},
-    {"id":{"name":"MainGame_1","path":"rooms/MainGame_1/MainGame_1.yy",},"order":0,},
+    {"id":{"name":"Arcade_1","path":"rooms/Arcade_1/Arcade_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -27,7 +30,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"MainGame_1","path":"rooms/MainGame_1/MainGame_1.yy",},},
+    {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
+    {"roomId":{"name":"Arcade_1","path":"rooms/Arcade_1/Arcade_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

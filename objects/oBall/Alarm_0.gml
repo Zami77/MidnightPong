@@ -1,7 +1,7 @@
 /// @description Alarm for waiting to reset ball velocity
 
 if (global.isNight) {
-	hSpeed = 1;
+	hSpeed = 5;
 }
 else {
 	hSpeed = random_range(-10, 10);
