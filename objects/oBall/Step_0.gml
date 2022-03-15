@@ -27,8 +27,18 @@ function updateHSpeed() {
 	hSpeed = clamp(hSpeed, -maxHSpeed, maxHSpeed);
 }
 
-function updateVSpeed() {
-	vSpeed += random_range(-2, 2);
+function updateVSpeed(wallHit = false) {
+	if (wallHit) {
+		if (vSpeed > 0) {
+			vSpeed += random_range(0.1, 2);
+		}
+		else {
+			vSpeed += random_range(-2, 0.1);
+		}
+	}
+	else {
+		vSpeed += random_range(-2, 2);
+	}
 	vSpeed = clamp(vSpeed, -maxVSpeed, maxVSpeed);
 }
 
@@ -44,16 +54,11 @@ function ballBounceParticles() {
 	}
 }
 
-function ballBounce() {
-	if (!canBallBounce) {
-		return;
-	}
+function ballBounce(wallHit = false) {
 	updateHSpeed();
-	updateVSpeed();
+	updateVSpeed(wallHit);
 	ballBounceSound();
 	ballBounceParticles();
-	canBallBounce = false;
-	alarm_set(1, 10);
 }
 #endregion
 
@@ -62,18 +67,20 @@ if (initGameBall) {
 	resetBall(true);
 }
 
-if (bbox_bottom > room_height || bbox_top < 0) {
-	vSpeed = -vSpeed;
-	ballBounce();
-}
-
 x += hSpeed;
 y += vSpeed;
+
+if (bbox_bottom > room_height || bbox_top < 0) {
+	vSpeed = -vSpeed;
+	ballBounce(true);
+}
+
+
 
 if (x < 0 || x > room_width) {
 	if (isMenuBall) {
 		hSpeed = -hSpeed;
-		ballBounce();
+		ballBounce(true);
 		return;
 	}
 	resetBall()
