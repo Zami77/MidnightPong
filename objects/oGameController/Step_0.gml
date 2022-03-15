@@ -1,15 +1,19 @@
+#region Player Score
 if (global.scoreLeft == global.pointsToWin) {
-	// TODO: player wins
+	global.isMatchOver = true;
+	global.isLeftWon = true;
 	global.isNight = false;
 }
 else if (global.scoreRight == global.pointsToWin) {
-	// TODO: computer wins
+	global.isMatchOver = true;
+	global.isRightWon = true;
 	global.isNight = false;
 }
 
 if (global.scoreLeft == global.pointsToWin - 1) {
 	global.isNight = true;	
 }
+#endregion
 
 #region Handle Controls
 global.control_menu_up	  = keyboard_check_pressed(vk_up) or gamepad_button_check_pressed(0, gp_padu);

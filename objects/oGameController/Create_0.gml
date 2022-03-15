@@ -5,3 +5,6 @@ global.scoreLeft = 0;
 global.scoreRight = 0;
 global.isNight = false;
 global.pointsToWin = 2;
+global.isMatchOver = false;
+global.isLeftWon = false;
+global.isRightWon = false;

@@ -1,3 +1,7 @@
+if (global.isMatchOver) {
+	return;
+}
+
 if (isAI) {
 	var reachedDestination = y >= destination - maxSpeed  && y <= destination + maxSpeed;
 	var topWall = sprite_height / 2;

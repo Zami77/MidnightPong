@@ -62,6 +62,10 @@ function ballBounce(wallHit = false) {
 }
 #endregion
 
+if (global.isMatchOver) {
+	return;
+}
+
 if (initGameBall) {
 	initGameBall = false
 	resetBall(true);
