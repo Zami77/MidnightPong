@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndBallHit_3.wav",
-  "duration": 0.992653,
+  "soundFile": "sndBallHit_04.wav",
+  "duration": 1.5,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndBallHit_3",
+  "name": "sndBallHit_04",
   "tags": [],
   "resourceType": "GMSound",
 }

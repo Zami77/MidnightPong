@@ -33,7 +33,7 @@ function updateVSpeed() {
 }
 
 function ballBounceSound() {
-	bounceSounds = [sndBallHit_1, sndBallHit_2, sndBallHit_3];
+	bounceSounds = [sndBallHit_01, sndBallHit_02, sndBallHit_03, sndBallHit_04, sndBallHit_05, sndBallHit_06];
 	curSound = irandom_range(0, array_length(bounceSounds) - 1);
 	audio_play_sound(bounceSounds[curSound], 1, false);
 }
