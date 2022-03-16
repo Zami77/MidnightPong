@@ -10,10 +10,10 @@ function scrDrawWinText(cur_x = x, cur_y = y){
 	winMsg = "";
 	
 	if (global.isLeftWon) {
-		winMsg = "Player Won!";
+		winMsg = global.is2PGame ? "Player 1 Won!" : "Player Won!";
 	}
 	else {
-		winMsg = "Player Lost!";
+		winMsg = global.is2PGame ? "Player 2 Won!" : "Player Lost!";
 	}
 	
 	draw_text_transformed(cur_x, cur_y, winMsg, 1, 1, 0);

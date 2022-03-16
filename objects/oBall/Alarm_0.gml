@@ -1,6 +1,6 @@
 /// @description Alarm for waiting to reset ball velocity
 
-if (global.isNight) {
+if (global.isNight and !global.is2PGame) {
 	hSpeed = 5;
 }
 else {

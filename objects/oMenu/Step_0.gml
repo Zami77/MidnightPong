@@ -15,8 +15,8 @@ if (image_index == arcadeOption and global.control_accept) {
 }
 
 if (image_index == twoPlayerOption and global.control_accept) {
-	// TODO: two player game
 	audio_play_sound(sndButtonConfirm_1, 1, false);
+	room_goto(r2Player);
 }
 
 if (image_index == exitOption and global.control_accept) {

@@ -10,4 +10,5 @@ global.isLeftWon = false;
 global.isRightWon = false;
 
 isPaused = false;
+global.is2PGame = false;
 pausedSurf = -1;

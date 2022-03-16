@@ -9,8 +9,7 @@ else if (global.scoreRight == global.pointsToWin) {
 	global.isRightWon = true;
 	global.isNight = false;
 }
-
-if (global.scoreLeft == global.pointsToWin - 1) {
+else if (global.scoreLeft == global.pointsToWin - 1 or (global.is2PGame and global.scoreRight == global.pointsToWin - 1)) {
 	global.isNight = true;	
 }
 #endregion
@@ -24,6 +23,12 @@ global.control_accept     = keyboard_check_pressed(ord("Z")) or
 							keyboard_check_pressed(vk_space) or
 							keyboard_check_pressed(vk_enter) or
 							gamepad_button_check_pressed(0, gp_face1);
+
+/* Two Player Controls */
+global.control_p1_up = keyboard_check(ord("W")) or gamepad_button_check_pressed(0, gp_padu);
+global.control_p1_down = keyboard_check(ord("S")) or gamepad_button_check_pressed(0, gp_padd);
+global.control_p2_up = keyboard_check(vk_up);
+global.control_p2_down = keyboard_check(vk_down);
 #endregion
 
 #region Pause Menu

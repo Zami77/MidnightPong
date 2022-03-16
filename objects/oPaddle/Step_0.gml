@@ -25,8 +25,31 @@ if (isAI) {
 		y = clamp(y + currentSpeed, sprite_height / 2, room_height - sprite_height / 2);
 	}
 }
+else if (is1P) {
+	if (global.control_p1_up) {
+		currentSpeed = -maxSpeed
+	}
+	else if (global.control_p1_down) {
+		currentSpeed = maxSpeed
+	}
+	else {
+		currentSpeed = 0
+	}
+	
+	y = clamp(y + currentSpeed, sprite_height / 2, room_height - sprite_height / 2);
+}
 else if (is2P) {
-	// TODO: add two player
+	if (global.control_p2_up) {
+		currentSpeed = -maxSpeed
+	}
+	else if (global.control_p2_down) {
+		currentSpeed = maxSpeed
+	}
+	else {
+		currentSpeed = 0
+	}
+	
+	y = clamp(y + currentSpeed, sprite_height / 2, room_height - sprite_height / 2);
 }
 else {
 	if (global.control_up) {
