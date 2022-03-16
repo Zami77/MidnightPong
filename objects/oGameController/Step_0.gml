@@ -27,7 +27,7 @@ global.control_accept     = keyboard_check_pressed(ord("Z")) or
 #endregion
 
 #region Pause Menu
-if (room != Main_Menu and keyboard_check_pressed(ord("P"))) {
+if (room != rMainMenu and keyboard_check_pressed(ord("P"))) {
 	isPaused = !isPaused;
 	if (!isPaused) {
 		instance_activate_all();

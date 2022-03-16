@@ -6,7 +6,7 @@ if (global.isMatchOver) {
 
 #region Draw Rooms
 	switch (room) {
-		case Main_Menu:
+		case rMainMenu:
 			break;
 		default:
 			if (isPaused) {

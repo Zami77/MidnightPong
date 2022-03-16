@@ -1,1 +1,0 @@
-isArcade_1 = true;

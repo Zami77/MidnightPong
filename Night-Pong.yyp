@@ -22,7 +22,7 @@
     {"id":{"name":"oLighting","path":"objects/oLighting/oLighting.yy",},"order":2,},
     {"id":{"name":"oPaddle","path":"objects/oPaddle/oPaddle.yy",},"order":0,},
     {"id":{"name":"sndMenuMusic","path":"sounds/sndMenuMusic/sndMenuMusic.yy",},"order":12,},
-    {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":1,},
+    {"id":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},"order":1,},
     {"id":{"name":"sndBallHit_03","path":"sounds/sndBallHit_03/sndBallHit_03.yy",},"order":7,},
     {"id":{"name":"LargeFont","path":"fonts/LargeFont/LargeFont.yy",},"order":0,},
     {"id":{"name":"sndButtonChange_1","path":"sounds/sndButtonChange_1/sndButtonChange_1.yy",},"order":3,},
@@ -35,7 +35,7 @@
     {"id":{"name":"oTextBox","path":"objects/oTextBox/oTextBox.yy",},"order":10,},
     {"id":{"name":"oMenuTitle","path":"objects/oMenuTitle/oMenuTitle.yy",},"order":8,},
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"order":6,},
-    {"id":{"name":"Arcade_1","path":"rooms/Arcade_1/Arcade_1.yy",},"order":0,},
+    {"id":{"name":"rArcade_1","path":"rooms/rArcade_1/rArcade_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
@@ -49,8 +49,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
-    {"roomId":{"name":"Arcade_1","path":"rooms/Arcade_1/Arcade_1.yy",},},
+    {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"roomId":{"name":"rArcade_1","path":"rooms/rArcade_1/rArcade_1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

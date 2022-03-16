@@ -11,7 +11,7 @@ if (global.control_menu_down and image_index < image_number - 1) {
 
 if (image_index == arcadeOption and global.control_accept) {
 	audio_play_sound(sndButtonConfirm_1, 1, false);
-	room_goto(Arcade_1);
+	room_goto(rArcade_1);
 }
 
 if (image_index == twoPlayerOption and global.control_accept) {

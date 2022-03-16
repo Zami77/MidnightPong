@@ -1,3 +1,3 @@
 isMenu = false;
-isArcade_1 = false;
+isrArcade_1 = false;
 songPlaying = false;
