@@ -8,3 +8,6 @@ global.pointsToWin = 2;
 global.isMatchOver = false;
 global.isLeftWon = false;
 global.isRightWon = false;
+
+paused = false;
+pausedSurf = -1;

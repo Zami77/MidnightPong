@@ -25,3 +25,9 @@ global.control_accept     = keyboard_check_pressed(ord("Z")) or
 							keyboard_check_pressed(vk_enter) or
 							gamepad_button_check_pressed(0, gp_face1);
 #endregion
+
+#region Pause Menu
+if (room != Main_Menu) {
+	// TODO: implement pause
+}
+#endregion
