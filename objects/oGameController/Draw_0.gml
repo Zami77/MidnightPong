@@ -29,6 +29,5 @@ if (global.isMatchOver) {
 					draw_set_halign(fa_left);
 				}
 			}
-			
 	}
 #endregion
