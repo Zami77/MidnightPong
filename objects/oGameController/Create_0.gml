@@ -9,5 +9,5 @@ global.isMatchOver = false;
 global.isLeftWon = false;
 global.isRightWon = false;
 
-paused = false;
+isPaused = false;
 pausedSurf = -1;
