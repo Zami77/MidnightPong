@@ -62,8 +62,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rArcade_2","path":"rooms/rArcade_2/rArcade_2.yy",},},
     {"roomId":{"name":"rMainMenu","path":"rooms/rMainMenu/rMainMenu.yy",},},
+    {"roomId":{"name":"rArcade_2","path":"rooms/rArcade_2/rArcade_2.yy",},},
     {"roomId":{"name":"r2Player","path":"rooms/r2Player/r2Player.yy",},},
     {"roomId":{"name":"rArcade_1","path":"rooms/rArcade_1/rArcade_1.yy",},},
   ],
