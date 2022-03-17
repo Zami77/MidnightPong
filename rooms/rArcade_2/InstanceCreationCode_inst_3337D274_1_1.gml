@@ -1,1 +1,1 @@
-global.pointsToWin = 1;
+global.pointsToWin = 3;

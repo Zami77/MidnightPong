@@ -13,6 +13,7 @@ function shootLaser() {
 
 function takeDamage() {
 	flashAlpha = 1;
+	image_yscale *= 0.9;
 }
 
 if (isAI) {

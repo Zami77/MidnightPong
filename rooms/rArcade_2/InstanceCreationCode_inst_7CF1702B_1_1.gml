@@ -1,1 +1,1 @@
-boxMsg = "Watch out, the enemy can shoot lasers in the dark now, good luck!\n\n\nPress any key to continue...";
+boxMsg = "Watch out, the enemy can shoot lasers in the dark now. If you get hit, your paddle gets smaller, good luck!\n\n\nPress any key to continue...";
