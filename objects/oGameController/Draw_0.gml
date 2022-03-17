@@ -4,7 +4,7 @@ if (global.isMatchOver) {
 }
 #endregion
 
-#region Draw Rooms
+#region Draw Pause Menu
 	switch (room) {
 		case rMainMenu:
 			break;
@@ -25,7 +25,7 @@ if (global.isMatchOver) {
 					draw_rectangle_color(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
 					draw_set_alpha(1);
 					draw_set_halign(fa_center);
-					draw_text_transformed_color(room_width / 2, room_height / 2, "PAUSED", 1, 1, 0, c_purple, c_purple, c_purple, c_purple, 1);
+					draw_text_transformed_color(room_width / 2, room_height / 2, "PAUSED\nPress Q to go to the Main Menu", 1, 1, 0, c_purple, c_purple, c_purple, c_purple, 1);
 					draw_set_halign(fa_left);
 				}
 			}

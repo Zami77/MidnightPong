@@ -12,3 +12,5 @@ global.isRightWon = false;
 isPaused = false;
 global.is2PGame = false;
 pausedSurf = -1;
+
+nextLevel = rMainMenu;

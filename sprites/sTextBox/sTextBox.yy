@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 9,
+  "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f689eb30-19c6-461e-a5de-41a572f13c0d","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f689eb30-19c6-461e-a5de-41a572f13c0d","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"403d2ba8-480f-4118-bfbb-6d099e75a3c2","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f689eb30-19c6-461e-a5de-41a572f13c0d","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"e18ef4b0-7a62-4090-ad8c-b9f7156d4cbe","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f689eb30-19c6-461e-a5de-41a572f13c0d","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"f5109269-f1f0-4f03-8a9f-5f084bdccf1f","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f689eb30-19c6-461e-a5de-41a572f13c0d","path":"sprites/sTextBox/sTextBox.yy",},"LayerId":{"name":"403d2ba8-480f-4118-bfbb-6d099e75a3c2","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"resourceVersion":"1.0","name":"f689eb30-19c6-461e-a5de-41a572f13c0d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -56,8 +56,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 31,
-    "yorigin": 32,
+    "xorigin": 300,
+    "yorigin": 200,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},
