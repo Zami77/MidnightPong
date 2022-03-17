@@ -2,8 +2,11 @@ if (global.isMatchOver) {
 	return;
 }
 
-if (bossHP <= 0) {
+if (global.bossHP <= 0) {
+	global.bossHP = 0;
+	global.scoreLeft = 9001;
 	global.isMatchOver = true;
+	instance_destroy();
 }
 
 function shootLaser() {
@@ -16,7 +19,7 @@ function shootLaser() {
 
 function takeDamage() {
 	flashAlpha = 1;
-	bossHP -= 1;
+	global.bossHP -= 1;
 	audio_play_sound(sndPaddleTakeDamage, 2, false);
 }
 

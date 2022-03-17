@@ -13,6 +13,7 @@
     {"id":{"name":"CascadiaCode","path":"fonts/CascadiaCode/CascadiaCode.yy",},"order":1,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":0,},
     {"id":{"name":"oBasicLaser","path":"objects/oBasicLaser/oBasicLaser.yy",},"order":13,},
+    {"id":{"name":"oBossHP","path":"objects/oBossHP/oBossHP.yy",},"order":15,},
     {"id":{"name":"sndBallHit_04","path":"sounds/sndBallHit_04/sndBallHit_04.yy",},"order":8,},
     {"id":{"name":"oScoreLeft","path":"objects/oScoreLeft/oScoreLeft.yy",},"order":5,},
     {"id":{"name":"sLighting","path":"sprites/sLighting/sLighting.yy",},"order":3,},

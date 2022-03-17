@@ -1,5 +1,5 @@
 #region Player Score
-if (global.scoreLeft == global.pointsToWin) {
+if (global.scoreLeft >= global.pointsToWin) {
 	global.isMatchOver = true;
 	global.isLeftWon = true;
 	global.isNight = false;

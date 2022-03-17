@@ -1,0 +1,1 @@
+global.bossHP = 5;
