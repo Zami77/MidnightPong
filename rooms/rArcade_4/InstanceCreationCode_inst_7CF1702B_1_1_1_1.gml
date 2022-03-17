@@ -1,0 +1,1 @@
+boxMsg = "This entire match is in the dark, good luck!\n\n\nPress any key to continue...";

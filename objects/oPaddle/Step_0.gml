@@ -2,6 +2,13 @@ if (global.isMatchOver) {
 	return;
 }
 
+if (isInitSetup) {
+	isInitSetup = false;
+	if (isBoss) {
+		image_yscale *= 7;
+	}
+}
+
 function shootLaser() {
 	var laserCooldown = 180; // 3 seconds
 	if (isAI) {
