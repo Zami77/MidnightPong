@@ -1,0 +1,1 @@
+boxMsg = "Watch out, the enemy can shoot lasers in the dark now, good luck!\n\n\nPress any key to continue...";
