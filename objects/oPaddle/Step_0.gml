@@ -13,6 +13,7 @@ function shootLaser() {
 
 function takeDamage() {
 	flashAlpha = 1;
+	audio_play_sound(sndPaddleTakeDamage, 2, false);
 	image_yscale *= 0.9;
 }
 
