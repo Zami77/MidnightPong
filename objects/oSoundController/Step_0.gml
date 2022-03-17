@@ -4,7 +4,7 @@ if (songPlaying) {
 
 switch (room) {
 	case rMainMenu:
-		audio_play_sound(sndMenuMusic, 0, true);
+		audio_play_sound(sndMenuMusic, 2, true);
 		songPlaying = true;
 		break;
 	case rArcade_1:
