@@ -21,5 +21,6 @@ if (image_index == twoPlayerOption and global.control_accept) {
 
 if (image_index == exitOption and global.control_accept) {
 	audio_play_sound(sndButtonConfirm_1, 1, false);
+	audio_stop_all();
 	game_end();
 }

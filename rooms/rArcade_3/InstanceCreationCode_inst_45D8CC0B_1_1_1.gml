@@ -1,0 +1,2 @@
+isAI = true;
+canShoot = true;

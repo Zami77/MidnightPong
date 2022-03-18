@@ -1,5 +1,5 @@
 #region Player Score
-if (global.scoreLeft == global.pointsToWin) {
+if (global.scoreLeft >= global.pointsToWin) {
 	global.isMatchOver = true;
 	global.isLeftWon = true;
 	global.isNight = false;
@@ -60,7 +60,15 @@ if (isPaused and keyboard_check_pressed(ord("Q"))) {
 if (global.isMatchOver) {
 	if (!instance_exists(oNextRoom)) {
 		var _oNextRoom = instance_create_depth(room_width / 2, room_height / 2 + 40, 100, oNextRoom);
-		_oNextRoom.roomToGoTo = nextLevel;
+		if (global.is2PGame) {
+			_oNextRoom.roomToGoTo = rMainMenu;
+		}
+		if (global.isLeftWon) {
+			_oNextRoom.roomToGoTo = nextLevel;
+		}
+		else {
+			_oNextRoom.roomToGoTo = room;
+		}
 	}
 }
 #endregion
