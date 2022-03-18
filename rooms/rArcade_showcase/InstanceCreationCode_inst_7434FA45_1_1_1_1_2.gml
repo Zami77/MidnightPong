@@ -1,0 +1,1 @@
+isrArcade_1 = true;
