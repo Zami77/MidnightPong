@@ -1,0 +1,1 @@
+global.pointsToWin = 3;
