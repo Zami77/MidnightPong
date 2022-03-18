@@ -5,10 +5,10 @@ if (global.isNight and !global.is2PGame) {
 }
 else {
 	hDir = sign(irandom_range(-1, 1))
-	hSpeed = random_range(5, 10) * hDir;
+	hSpeed = random_range(5, 7) * hDir;
 }
 vDir = sign(irandom_range(-1, 1))
-vSpeed = random_range(3, 10) * vDir;
+vSpeed = random_range(3, 7) * vDir;
 
 if (hSpeed == 0 and vSpeed == 0) {
 	hSpeed = 4;
