@@ -1,1 +1,2 @@
-global.bossHP = 5;
+global.bossHP = 20;
+canShoot = true;

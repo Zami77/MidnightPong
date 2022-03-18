@@ -11,16 +11,20 @@ if (global.bossHP <= 0) {
 
 function shootLaser() {
 	var laserCooldown = 180; // 3 seconds
-	instance_create_layer(x - 100, y, "Paddles_Ball", oBasicLaser);
+	instance_create_layer(x - 100, oPaddle.y, "Paddles_Ball", oBasicLaser);
 	canShoot = false;
 	alarm_set(1, laserCooldown);
-
 }
 
 function takeDamage() {
 	flashAlpha = 1;
 	global.bossHP -= 1;
 	audio_play_sound(sndPaddleTakeDamage, 2, false);
+}
+
+if (canShoot) {
+	alarm_set(1, 180);
+	shootLaser();
 }
 
 if (flashAlpha > 0) {
